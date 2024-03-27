@@ -102,7 +102,7 @@ body::-webkit-scrollbar{
 @media screen and (width < 1070px)  {
   .grid-container{
     grid-template-columns: 2fr;
-    grid-template-rows: auto;
+    grid-auto-rows: auto;
     gap: 50px 0;
   }
 }
